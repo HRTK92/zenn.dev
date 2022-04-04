@@ -118,3 +118,13 @@ if __name__ == "__main__":
 作成したチャンネルの`Messaging API設定`>`Webhook設定`>`Webhook URL`にコピーしたURLを貼り付けて最後に`callback`を追加  
 例: `https://line-bot.〇〇.repl.co/callback`になってるはず  
 そしたら下の`Webhookの利用`をオンにします  
+
+### 友だち追加をして送ってみる
+
+[LINE Official Account Manager](https://manager.line.biz/)に移動し  
+@[card](https://manager.line.biz/)
+ボットを選択して`友だちを増やす`>`友だち追加ガイド`を開き`URLを作成`で友だち追加をするURLを確認することができます。
+
+## 終わりに
+
+初めて記事を書いてみました。説明などが不足しているかもしれませんが何かあったら気軽にコメントください。
