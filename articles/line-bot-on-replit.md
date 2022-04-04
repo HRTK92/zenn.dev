@@ -3,7 +3,7 @@ title: "LineBotをスマホとReplitで作ってみる"
 emoji: "🌟"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["linebot", "python", "replit"]
-published: false
+published: true
 ---
 
 ## 今回使用するもの
