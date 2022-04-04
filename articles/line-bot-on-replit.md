@@ -15,13 +15,13 @@ published: false
 
 ## 準備
 
-1. まずはReplitのアカウントを作成
+### Replit側
 
+1. まずはReplitのアカウントを作成
 @[card](https://replit.com/)
 
 2. Pythonのreplを作成する
-
-![](/images/line-bot-on-replit/replit-create-python.png)
+![replit-create-python](/images/line-bot-on-replit/replit-create-python.png)
 
 3. main.pyにコードを貼り付ける
 
@@ -32,7 +32,7 @@ from argparse import ArgumentParser
 
 from flask import Flask, request, abort
 from linebot import (
-    LineBotApi, WebhookParser
+    LineBotApi, WebhookHandler
 )
 from linebot.exceptions import (
     InvalidSignatureError
@@ -60,11 +60,6 @@ def callback():
 
     try:
         handler.handle(body, signature)
-    except LineBotApiError as e:
-        print("Got exception from LINE Messaging API: %s\n" % e.message)
-        for m in e.error.details:
-            print("  %s: %s" % (m.property, m.message))
-        print("\n")
     except InvalidSignatureError:
         abort(400)
 
@@ -85,3 +80,41 @@ def handle_text_message(event):
 if __name__ == "__main__":
     app.run(port=8000)
 ```
+
+### ボットの作成
+
+:::message
+ここでは詳しく説明はしません。詳しくは[こちら](https://developers.line.biz/ja/docs/messaging-api/getting-started/)をご覧ください。
+:::
+
+1. LINE Developersコンソールにログインする
+@[card](https://developers.line.biz/console/)
+
+2. 新規プロバイダーを作成する
+ホーム画面の［新規プロバイダー作成］をクリックします。
+
+3. チャネルを作成する
+作成したプロバイダーページで、［チャネル設定］タブの［Messaging API］をクリックします。
+
+4. チャネルアクセストークンを発行する
+
+### Replitにボットの情報を登録する
+
+作成したreplを開き、右下の`Commands`をタップ  
+そしたら`Secret`を開き  
+![replit-set-env](/images/line-bot-on-replit/replit-set-env.png)  
+このようにする  
+:::message alert
+中身は作成したトークンに入れ替えてください。
+:::
+
+### 実行する
+
+`code`に戻り、右下の緑の▶を押すとパッケージのインストールが始まり完了しだい実行されます。(かなり時間がかかる)  
+実行されるとサイトが開きます。そのサイトのURLをコピーしておいてください。
+
+### Webhookの設定
+
+作成したチャンネルの`Messaging API設定`>`Webhook設定`>`Webhook URL`にコピーしたURLを貼り付けて最後に`callback`を追加  
+例: `https://line-bot.〇〇.repl.co/callback`になってるはず  
+そしたら下の`Webhookの利用`をオンにします  
