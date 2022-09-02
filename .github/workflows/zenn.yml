@@ -3,7 +3,7 @@ name: zenn
 on:
   push:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '3 * * * *'
   workflow_dispatch:
 
 jobs:
