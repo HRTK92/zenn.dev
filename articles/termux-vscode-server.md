@@ -81,7 +81,7 @@ wget -O- https://aka.ms/install-vscode-server/setup.sh | sh
 code-server -h
 ```
 
-使い方を確認することができます。
+使い方を確認できます。
 
 ## 4.起動の仕方
 
@@ -89,7 +89,7 @@ code-server -h
 code-server serve-local
 ```
 
-で起動することができ、
+で起動でき、
 ![](<https://storage.googleapis.com/zenn-user-upload/a411109a708d-20221003.png> =250x)
 ライセンスに同意すると
 `Web UI available at http://localhost:8000/?tkn=***************`と表示されます。
