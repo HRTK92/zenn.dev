@@ -6,6 +6,8 @@
   "author": "はらたく <70054655+HRTK92@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
+    "textlint": "^12.2.2",
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0",
     "zenn-cli": "^0.1.128"
   }
 }
