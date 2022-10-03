@@ -1,0 +1,11 @@
+{
+  "name": "zenn.dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/HRTK92/zenn.dev",
+  "author": "はらたく <70054655+HRTK92@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "zenn-cli": "^0.1.128"
+  }
+}
