@@ -1,5 +1,5 @@
 ---
-title: "localtonetを使ってみた"
+title: "Minecraft統合版をlocaltonetで公開してみた"
 emoji: "🗂"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["minecraft", "minecraftbedrock", "localtonet"]
