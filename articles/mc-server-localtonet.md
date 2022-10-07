@@ -103,6 +103,13 @@ LD_LIBRARY_PATH=. ./bedrock_server
 `ポート`には、`Server Port`を入力します。
 名前は何でも大丈夫です。
 これで、Minecraft統合版のサーバーへの接続は完了です。
+:::details ちなみに
+codespacesで立てることもできました。
+![](https://storage.googleapis.com/zenn-user-upload/3082cde7805e-20221007.png)
+:::
+
+![](https://storage.googleapis.com/zenn-user-upload/f3cc10c2259a-20221007.png)
+じっさいに、Minecraft統合版のサーバーへ接続してみました。
 
 ## まとめ
 
