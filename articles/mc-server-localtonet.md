@@ -3,7 +3,7 @@ title: "localtonetを使ってみた"
 emoji: "🗂"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["minecraft", "minecraftbedrock", "localtonet"]
-published: false
+published: true
 ---
 
 今回は、localtonetを使いをMincraft統合版のサーバーをローカルからインターネットに公開する方法を紹介します。
