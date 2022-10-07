@@ -123,7 +123,7 @@ if __name__ == "__main__":
 
 [LINE Official Account Manager](https://manager.line.biz/)に移動し  
 @[card](https://manager.line.biz/)
-ボットを選択して`友だちを増やす`>`友だち追加ガイド`を開き`URLを作成`で友だち追加をするURLを確認することができます。
+ボットを選択して`友だちを増やす`>`友だち追加ガイド`を開き`URLを作成`で友だち追加をするURLを確認できます。
 
 ## 終わりに
 
