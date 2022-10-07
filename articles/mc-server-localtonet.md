@@ -17,14 +17,18 @@ https://localtonet.com/
 しかし、ngrokは無料で使えるのに対し、localtonetは**一部有料**です。
 Minecrat統合版のサーバーを公開するには、`TCP`と`UDP`の2つのプロトコルが必要です。
 
+:::message
+プランについては、[こちら](https://localtonet.com/#pricing)を参照してください。
+:::
+
 ## localtonetのインストール
 
 localtonetは、様々なOSに対応しています。(Windows, macOS, Linux, Android, Docker)
 今回は、Linuxにインストールしてみます。
 
 ```bash
-wget https://localtonet.com/download/localtonet-linux-64.zip
-unzip localtonet-linux-64.zip
+wget https://localtonet.com/download/localtonet-linux-x64.zip
+unzip localtonet-linux-x64.zip
 ```
 
 インストールが完了したら、`localtonet`に権限を付与します。
@@ -79,7 +83,6 @@ unzip bedrock-server-1.19.31.01.zip
 LD_LIBRARY_PATH=. ./bedrock_server
 ```
 
-起動すると、`EULA`に同意するか聞かれるので、`agree`を入力します。
 これで、Minecraft統合版のサーバーの起動は完了です。
 
 ## Minecraft統合版のサーバーの公開
