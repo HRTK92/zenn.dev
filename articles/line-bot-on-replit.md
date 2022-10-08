@@ -21,7 +21,7 @@ published: true
 @[card](https://replit.com/)
 
 2. Pythonのreplを作成する
-![replit-create-python](/images/line-bot-on-replit/replit-create-python.png)
+![](https://storage.googleapis.com/zenn-user-upload/d9b6d864f139-20221008.png)
 
 3. main.pyにコードを貼り付ける
 
@@ -102,7 +102,7 @@ if __name__ == "__main__":
 
 作成したreplを開き、右下の`Commands`をタップ  
 そしたら`Secret`を開き  
-![replit-set-env](/images/line-bot-on-replit/replit-set-env.png)  
+![](https://storage.googleapis.com/zenn-user-upload/7776be36b170-20221008.png)
 このようにする  
 :::message alert
 中身は作成したトークンに入れ替えてください。
