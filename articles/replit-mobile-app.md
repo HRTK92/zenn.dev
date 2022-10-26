@@ -3,7 +3,7 @@ title: "Replitのモバイルアプリがリリースされた！"
 emoji: "✨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["replit"]
-published: false
+published: true
 ---
 
 10/19にReplitのモバイルアプリがリリースされました。
