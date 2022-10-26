@@ -14,7 +14,7 @@ https://youtu.be/Cmq3TrS3ccU
 
 AndroidとiOSの両方に対応しているようです。
 このアプリが出るまではブラウザでコードを編集できましたが、自動補充が効かなかったり画面が見づらかったりと、不便な点が多かったのでモバイルアプリが出てよかったです。
-今回はReplitのモバイルアプリの機能について紹介します。
+今回はReplitのモバイルアプリの機能や使い方について紹介します。
 
 # Replitのモバイルアプリとは
 
@@ -46,3 +46,32 @@ https://blog.replit.com/ai
 **Ghostwriter**は現在、クローズド ベータ版です。[こちら](https://replit.com/@amasad/GhostWriter-Early-Access?v=1)から申し込むことができます。
 
 [動画](https://blog.repl.it/images/mobile-app/ghostwriter_demo.mp4)
+
+# Replitのモバイルアプリの使い方
+
+## プロジェクトを作成する
+
+アプリをダウンロードして、アカウントにログインします。
+プロジェクトを作成するには、下にある**Create**をタップします。
+すると、プロジェクトのテンプレートや言語を選択することができます。
+
+![](https://storage.googleapis.com/zenn-user-upload/146967fd2f98-20221026.png =150x)
+
+`Python`を選択して、**Create**を選択します。
+
+![](https://storage.googleapis.com/zenn-user-upload/c640eb798857-20221026.png =150x)
+
+## プロジェクトを編集する
+
+プロジェクトを作成すると、プロジェクトのファイルが表示されます。
+pythonの場合、`main.py`というファイルが作成されています。
+```python:main.py
+print("Hello, world!")
+```
+
+## プロジェクトを実行する
+
+プロジェクトを実行するには、**Run**をタップします。
+すると、プロジェクトが実行されます。
+
+
