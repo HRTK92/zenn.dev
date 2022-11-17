@@ -1,9 +1,7 @@
-name: zenn
+name: update zenn feed
 
 on:
   push:
-  schedule:
-    - cron: '3 * * * *'
   workflow_dispatch:
 
 jobs:
