@@ -3,7 +3,7 @@ title: "Next.jsとtailwindcss、nextauth、prismaを使用した掲示板"
 emoji: "📌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["typescript", "nextjs", "tailwindcss", "nextauth", "prisma"]
-published: false
+published: true
 ---
 
 https://github.com/HRTK92/next-boards
