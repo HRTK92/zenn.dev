@@ -1,5 +1,5 @@
 ---
-title: "Next.jsとtailwindcss、nextauth、prismaを使用した掲示板"
+title: "Next.jsとTailWindCSS、NextAuth.js、Prismaを使用した掲示板"
 emoji: "📌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["typescript", "nextjs", "tailwindcss", "nextauth", "prisma"]
@@ -13,9 +13,9 @@ https://github.com/HRTK92/next-boards
 ### 技術的な特徴
 
 - Next.js: サーバーサイドレンダリングを提供するJavaScriptフレームワーク
-- tailwindcss: CSSフレームワーク
-- nextauth: Next.js用の認証ライブラリ
-- prisma: データベースを扱うためのORMツール
+- TailWindCSS: CSSフレームワーク
+- NextAuth.js: Next.js用の認証ライブラリ
+- Prisma: データベースを扱うためのORMツール
 
 ### 主な機能
 
