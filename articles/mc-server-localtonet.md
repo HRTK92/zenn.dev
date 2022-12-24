@@ -12,10 +12,17 @@ published: true
 
 https://localtonet.com/
 簡単にいうと、ngrokのようなローカルからインターネットに公開するツールです。
-`HTTP`, `HTTPS`, `TCP`, `UDP`(←ここが**重要**)の4つのプロトコルに対応しています。
-さらに、localtonetは、様々なOSに対応しています。(Windows, macOS, Linux, Android, Docker)
-しかし、ngrokは無料で使えるのに対し、localtonetは**一部有料**です。
-Minecrat統合版のサーバーを公開するには、`TCP`と`UDP`の2つのプロトコルが必要です。
+しかし、ngrokと対応しているプロトコルが違います。
+
+|         | ngrok | localtonet |
+| ------- | ----- | ---------- |
+| HTTP    | ⭕    | ⭕         |
+| TCP     | ⭕    | ⭕         |
+| UDP     | ❌    | ⭕         |
+| TCP&UDP | ❌    | ⭕         |
+
+ngrokはUDPに対応していませんが、localtonetはUDPに対応しています。
+また、TCPとUDPを同時に公開することできるため、Minecraft統合版のサーバーを公開するにはぴったりです。
 
 :::message
 プランについては、[こちら](https://localtonet.com/#pricing)を参照してください。
@@ -109,9 +116,4 @@ codespacesで立てることもできました。
 :::
 
 ![](https://storage.googleapis.com/zenn-user-upload/f3cc10c2259a-20221007.png)
-じっさいに、Minecraft統合版のサーバーへ接続してみました。
-
-## まとめ
-
-今回は、localtonetを使って、Minecraft統合版のサーバーを公開する方法を紹介しました。
-localtonetは、一部有料ですがlocaltonetはUDPをサポートしているので、ちょっとしたサーバーを公開するには、localtonetを使うのが一番簡単です。
+実際に、Minecraft統合版のサーバーへ接続してみました。
