@@ -47,21 +47,21 @@ F-droidをインストールしたあとにTermuxをインストール
 
 ## 2.TermuxにUbuntuを入れる
 
-必要なパッケージのインストール
+Ubuntuをインストールするために必要なパッケージのインストール
 
 ```sh
 pkg install wget openssl-tool proot
 ```
 
-Ubuntuをインストールし、自動で起動するようにする
+次に、Ubuntuをインストールし、自動で起動するようにします
 
 ```sh
 wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh && echo "./start-ubuntu.sh" >> ~/.bashrc && ./start-ubuntu.sh
 ```
 
-:::details 日本語化する
+:::details Ubuntuを日本語化する
 
-unbuntuを起動したあとに以下のコマンドを実行
+Ubuntuを起動したあとに以下のコマンドを実行
 
 ```sh
 apt install language-pack-ja -y && echo 'export LANG=ja_JP.UTF-8' >> ~/.bashrc && echo 'export LANGUAGE="ja_JP:ja"' >> ~/.bashrc
@@ -89,7 +89,7 @@ code-server -h
 code-server serve-local
 ```
 
-で起動でき、
+を実行すると起動でき、
 ![](<https://storage.googleapis.com/zenn-user-upload/a411109a708d-20221003.png> =250x)
 ライセンスに同意すると
 `Web UI available at http://localhost:8000/?tkn=***************`と表示されます。
