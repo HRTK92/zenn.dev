@@ -6,6 +6,8 @@ topics: ["vscode", termux]
 published: true
 ---
 
+今回は、Androidを使用して「VS Code Server」を建てる方法を紹介していきます。
+
 # 今回使用するもの
 
 - VS Code Server
