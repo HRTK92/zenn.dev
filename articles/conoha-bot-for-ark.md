@@ -3,7 +3,7 @@ title: "ConoHaをDiscordから起動したい"
 emoji: "🎐"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["conoha", "discord", "arksurvivalevolved"]
-published: false
+published: true
 ---
 
 # はじめに
