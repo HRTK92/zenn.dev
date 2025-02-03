@@ -5,13 +5,18 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
 	"features": {
-		"ghcr.io/devcontainers/features/node:1": {}
+		"ghcr.io/devcontainers/features/node:1": {},
+		"ghcr.io/tailscale/codespace/tailscale": {}
 	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"zenn.zenn-preview",
-				"taichi.vscode-textlint"
+				"taichi.vscode-textlint",
+				"GitHub.copilot",
+				"GitHub.copilot-chat",
+				"zhuangtongfa.Material-theme",
+				"DavidAnson.vscode-markdownlint"
 			]
 		}
 	},
@@ -23,11 +28,5 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "yarn install",
-
-	// Configure tool-specific properties.
-	// "customizations": {},
-
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
+	"postCreateCommand": "yarn install"
 }
